@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	
+	<definition name="HomePageLayout"
+		template="/WEB-INF/jsp/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/jsp/HomeHeader.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/Footer.jsp" />
+	</definition>
+	<definition name="basic"
+		template="/WEB-INF/jsp/layout1.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/jsp/HomeHeader.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/jsp/AndroidMenu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/Footer.jsp" />
+	</definition>
+	
+	<definition name="ContentPageFooter"
+		template="/WEB-INF/jsp/layout1.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/jsp/HomeHeader.jsp" />
+		<put-attribute name="menu" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/FooterBasic.jsp" />
+	</definition>
+	
+	
+	<!-- To navigate to "Aboutus" -->
+	<definition name="Aboutus" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Aboutus.jsp" />
+	</definition>
+	<definition name="social1" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Blog-Content/Android/SocialNetwork/Social1.jsp" />
+	</definition>
+	<definition name="Photography" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Blog-Content/Android/Photography/Photography.jsp" />
+	</definition>
+	
+	<definition name="social2" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Blog-Content/Android/SocialNetwork/Social2.jsp" />
+	</definition>
+	<definition name="social4" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Blog-Content/Android/SocialNetwork/Social4.jsp" />
+	</definition>
+	<definition name="social3" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Blog-Content/Android/SocialNetwork/Social3.jsp" />
+	</definition>
+	<definition name="social5" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Blog-Content/Android/SocialNetwork/Social5.jsp" />
+	</definition>
+	
+	<definition name="Developers" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Developers.jsp" />
+	</definition>
+	
+	<definition name="Home" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Home.jsp" />
+	</definition>
+	<definition name="Gallery" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Gallery.jsp" />
+	</definition>
+	<definition name="search" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Search.jsp" />
+	</definition>
+	<definition name="Android" extends="basic">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Android.jsp" />
+	</definition>
+	<definition name="Ios" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Ios.jsp" />
+	</definition>
+	<definition name="BlackBerry" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Blog-Content/Blackberry/BBMenu.jsp" />
+	</definition>
+	<definition name="Windows" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Windows.jsp" />
+	</definition>
+	<definition name="TenKSmartPhone" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/TenKSmartPhone.jsp" />
+	</definition>
+	<definition name="TwentyKSmartPhone" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/TwentyKSmartPhone.jsp" />
+	</definition>
+	<definition name="UnderThirtySP" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/UnderThirtySP.jsp" />
+	</definition>
+	<definition name="AboveThirtySP" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/AboveThirtySP.jsp" />
+	</definition>
+	<definition name="Engineer" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Engineer.jsp" />
+	</definition>
+	<definition name="Management" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Management.jsp" />
+	</definition>
+		<definition name="Medical" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Medical.jsp" />
+	</definition>
+	<definition name="Bikes" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Bikes.jsp" />
+	</definition>
+	<definition name="Car" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Car.jsp" />
+	</definition>
+	<definition name="Bicycle" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Bicycle.jsp" />
+	</definition>
+	<definition name="Movies" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Movies.jsp" />
+	</definition>
+	<definition name="Songs" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/Songs.jsp" />
+	</definition>
+	<definition name="NewsChannel" extends="HomePageLayout">		
+		<put-attribute name="body" value="/WEB-INF/jsp/NewsChannel.jsp" />
+	</definition>
+	
+	
+	
+	
+	
+	
+	
+</tiles-definitions>

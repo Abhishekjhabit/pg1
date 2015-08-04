@@ -1,0 +1,41 @@
+<%--
+  - Author(s): Payal, Dayanand
+  - Date: Jun 3, 2015
+  - Copyright Notice: Copyright © 2015 Wipro Technologies. All rights reserved.
+  - Description: This page is used as layout for all the view pages.
+--%>
+
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="jquery.js"></script>
+<script src="js/bootstrap.min.js"></script> -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><tiles:insertAttribute name="title" ignore="true" /></title>
+</head>
+<body>
+<table border=""  align="center">
+	<tr>
+		<td height="30" colspan="2"><tiles:insertAttribute name="header" />
+		</td>
+	</tr>
+	<tr>
+		<td height="30" width="150" ><tiles:insertAttribute name="menu" /></td>
+		<td  height="600" width="1500"><tiles:insertAttribute name="body" /></td>
+	</tr>
+	<tr>
+		<td height="20" colspan="2"><tiles:insertAttribute name="footer" />
+		</td>
+	</tr>
+</table>
+</body>
+</html>
